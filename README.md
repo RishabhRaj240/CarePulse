@@ -108,19 +108,16 @@ npm install
 Create a new file named `.env.local` in the root of your project and add the following content:
 
 ```env
-#APPWRITE
-NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
-PROJECT_ID=
-API_KEY=
-DATABASE_ID=
-PATIENT_COLLECTION_ID=
-APPOINTMENT_COLLECTION_ID=
-NEXT_PUBLIC_BUCKET_ID=
+#supabase
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+# Optional (server-side only if you use it):
+SUPABASE_SERVICE_ROLE_KEY=
 
-NEXT_PUBLIC_ADMIN_PASSKEY=111111
+NEXT_PUBLIC_ADMIN_PASSKEY=
 ```
 
-Replace the placeholder values with your actual Appwrite credentials. You can obtain these credentials by signing up on the [Appwrite website](https://appwrite.io/).
+Replace the placeholder values with your actual Supabase credentials. You can obtain these credentials by signing up on the [Supabase website](https://supabase.com/).
 
 **Running the Project**
 
